@@ -1,3 +1,4 @@
+import math
 #exhaustive search method
 def update(x):
     global dell
