@@ -65,6 +65,6 @@ file=open('exhaustive_log','r')
 print(file.read())
 file.close()
 print("\n\n[-]Program has ended")
-
+input("press [RETURN] to continue")
         
         
