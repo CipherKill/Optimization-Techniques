@@ -1,4 +1,4 @@
-
+import math
 def fib(n):
     x=[0]*n
     if n==1:
