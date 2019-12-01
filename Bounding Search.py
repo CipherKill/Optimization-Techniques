@@ -1,3 +1,4 @@
+import math
 val=0
 def update(x,k):
     global dell,f,val
