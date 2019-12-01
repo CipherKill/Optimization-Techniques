@@ -21,8 +21,6 @@ fxm=f(eq,xm)
 #fx2=x2*x2+54/x2#equation
 #fxm=xm*xm+54/xm
 while l>=tol:
-    print("Calculating...")
-    l=float(abs(b-a))
     x1=a+l/4
     x2=b-l/4
     fx1=f(eq,x1)
@@ -42,7 +40,7 @@ while l>=tol:
     else :
         a = x1
         b = x2
-
- 
+    l=float(abs(b-a))
+print("\n[-]DATA: \n\tf(x)={}\n\tInterval={}\n\tTermination Factor={}".format(eq,p,tol))
 print('\n[+]Interval found at [{},{}]'.format(a,b))
-input("press [RETURN] to continue")
+input("\npress [RETURN] to continue")
