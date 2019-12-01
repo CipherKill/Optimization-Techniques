@@ -44,3 +44,4 @@ while l>=tol:
 
  
 print('\n[+]Interval found at [{},{}]'.format(a,b))
+input("press [RETURN] to continue")
