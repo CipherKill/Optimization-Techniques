@@ -1,3 +1,4 @@
+import math
 #internal halfing method
 def f(fx,x):
     val=eval(fx)
