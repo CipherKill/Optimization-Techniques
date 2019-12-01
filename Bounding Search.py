@@ -34,7 +34,7 @@ x=[]
 f=[]
 c=[]
 print("Bounding Search  Method")
-fx=str(input("f(x)="))
+fx=str(input("Function: "))
 x0=float(input("Initial Value(x0): "))
 x.append(x0)
 dell=float(input("Del value: "))
