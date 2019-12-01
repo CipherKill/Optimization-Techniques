@@ -23,12 +23,13 @@ fx=str(input("Function: "))
 limit=list(map(float,input('Interval: ').split(',')))
 m=int(input("Function Evaluations: "))
 i=1
+L=limit[1]-limit[0]
 while(i<m):
-        print(limit)
-        L=limit[1]-limit[0]
+        #print(limit)        
         LL=(fib(m-k+1)/fib(m+1))*L
         x1=limit[0]+LL
         x2=limit[1]-LL
+        print("{} {} {} {}".format(L,LL,x1,x2))
         if(f(fx,x1)>f(fx,x2)):  
             limit[0]=x1
         elif(f(fx,x2)>f(fx,x1)):
@@ -37,5 +38,5 @@ while(i<m):
             print("error")
         k+=1
         i+=1
-print(limit)
+print("[+] Interval found at {}".format(limit))
 input("press [RETURN] to continue")
